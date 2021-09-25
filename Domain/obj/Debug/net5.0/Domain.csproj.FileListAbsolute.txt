@@ -1,0 +1,17 @@
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\DA.dll
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\DTO.dll
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\DA.pdb
+C:\Users\Andrew\RiderProjects\Template\Domain\bin\Debug\net5.0\DTO.pdb
+C:\Users\Andrew\RiderProjects\Template\Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete

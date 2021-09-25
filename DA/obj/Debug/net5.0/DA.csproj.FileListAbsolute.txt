@@ -1,0 +1,15 @@
+C:\Users\Andrew\RiderProjects\Template\DA\bin\Debug\net5.0\DA.deps.json
+C:\Users\Andrew\RiderProjects\Template\DA\bin\Debug\net5.0\DA.runtimeconfig.json
+C:\Users\Andrew\RiderProjects\Template\DA\bin\Debug\net5.0\DA.runtimeconfig.dev.json
+C:\Users\Andrew\RiderProjects\Template\DA\bin\Debug\net5.0\DA.dll
+C:\Users\Andrew\RiderProjects\Template\DA\bin\Debug\net5.0\ref\DA.dll
+C:\Users\Andrew\RiderProjects\Template\DA\bin\Debug\net5.0\DA.pdb
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.csproj.AssemblyReference.cache
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.AssemblyInfoInputs.cache
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.AssemblyInfo.cs
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.dll
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\ref\DA.dll
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.pdb
+C:\Users\Andrew\RiderProjects\Template\DA\obj\Debug\net5.0\DA.genruntimeconfig.cache
