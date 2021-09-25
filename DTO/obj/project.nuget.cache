@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5B6HDi4Xfk2wgB0vlToxgSR26MyUwgUF2hqAdA048WqziIwnn0x3iK4zv0Of7+++O6Q2WYMCzmZeLYJH1U3Z4A==",
+  "dgSpecHash": "lJyLVxaHrEsAreCt5oVhkJTYJn7bhn9AJw/7TWFMy0OiFZeuX1Bljz5ZvlR8DaAacgr3DRjT5qpKutdO/y6IEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrew\\RiderProjects\\Template\\DTO\\DTO.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrew\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
