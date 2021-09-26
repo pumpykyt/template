@@ -3,6 +3,7 @@ using Domain.Filters;
 using Domain.Interfaces;
 using DTO.Validators;
 using FluentValidation.AspNetCore;
+using Hangfire;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
@@ -34,6 +35,8 @@ namespace Domain.Installers
                     Description = "API Documentation"
                 });
             });
+            services.AddHangfire(t => t.UseSqlServerStorage(configuration["ConnectionString"]));
+            services.AddHangfireServer();
         }
     }
 }

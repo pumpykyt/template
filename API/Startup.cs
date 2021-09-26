@@ -12,6 +12,7 @@ using Domain.Middlewares;
 using Domain.Services;
 using DTO.Validators;
 using FluentValidation.AspNetCore;
+using Hangfire;
 using Mapster;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -74,6 +75,8 @@ namespace API
                     name: "default",
                     pattern: "{controller}/{action=Index}/{id?}");
             });
+
+            app.UseHangfireDashboard("/hangfire");
             app.UseSpa(spa =>
             {
                 spa.Options.SourcePath = "ClientApp";
