@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using API.Routes;
 using Domain.Interfaces;
 using DTO.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -16,14 +17,15 @@ namespace API.Controllers
             _authService = authService;
         }
 
-        [HttpPost("login")]
+        [HttpPost(ApiRoutes.Login)]
         public async Task<IActionResult> LoginAsync(UserLoginDto model)
         {
             var result = await _authService.LoginAsync(model);
             return Ok(result);
         }
 
-        [HttpPost("register")]
+        
+        [HttpPost(ApiRoutes.Register)]
         public async Task<IActionResult> RegisterAsync(UserRegisterDto model)
         {
             await _authService.RegisterAsync(model);

@@ -19,16 +19,15 @@ namespace Domain.Filters
 
                 var errorResponse = new ErrorResponse();
 
-                foreach (var t in errors)
+                foreach (var error in errors)
                 {
-                    foreach (var subError in t.Value)
+                    foreach (var subError in error.Value)
                     {
                         var errorModel = new ErrorModel
                         {
-                            FieldName = t.Key,
+                            FieldName = error.Key,
                             Message = subError
                         };
-
                         errorResponse.Errors.Add(errorModel);
                     }
                 }
