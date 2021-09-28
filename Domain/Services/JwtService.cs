@@ -2,6 +2,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 using DA.Entities;
 using Domain.Configurations;
 using Domain.Interfaces;
@@ -23,11 +24,11 @@ namespace Domain.Services
             _jwtConfig = optionsMonitor.CurrentValue;
         }
         
-        public string GenerateJwtToken(User user)
+        public async Task<string> GenerateJwtToken(User user)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_jwtConfig.Secret);
-            var userRoles = _userManager.GetRolesAsync(user).Result;
+            var userRoles = await _userManager.GetRolesAsync(user);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[]

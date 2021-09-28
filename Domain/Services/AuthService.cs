@@ -52,7 +52,7 @@ namespace Domain.Services
 
             return new LoginResponseDto
             {
-                Token = _jwtService.GenerateJwtToken(user)
+                Token = await _jwtService.GenerateJwtToken(user)
             };
         }
     }

@@ -75,7 +75,6 @@ namespace API
                     name: "default",
                     pattern: "{controller}/{action=Index}/{id?}");
             });
-
             app.UseHangfireDashboard("/hangfire");
             app.UseSpa(spa =>
             {

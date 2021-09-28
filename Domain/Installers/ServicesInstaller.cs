@@ -11,6 +11,7 @@ namespace Domain.Installers
         {
             services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IRoleService, RoleService>();
         }
     }
 }
