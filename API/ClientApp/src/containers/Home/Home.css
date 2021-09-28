@@ -1,0 +1,25 @@
+.home{
+    height: 100vh;
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 100px;
+}
+
+.home .left{
+    padding-top: 250px;
+    align-items: center;
+}
+
+.react-image, .netcore-image, .mobx-image{
+    width: 75%;
+    align-self: center;
+}
+
+.home .right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+

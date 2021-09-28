@@ -1,22 +1,24 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
+import React, {Component, useEffect} from 'react';
 
 import './custom.css'
+import {Route, Switch} from "react-router-dom";
+import Nav from "./components/Nav/Nav";
+import Home from "./containers/Home/Home";
 
-export default class App extends Component {
-  static displayName = App.name;
+const App = () => {
 
-  render () {
-    return (
-      <Layout>
-        <Route exact path='/' component={Home} />
-        <Route path='/counter' component={Counter} />
-        <Route path='/fetch-data' component={FetchData} />
-      </Layout>
-    );
-  }
+    useEffect(() => {
+        document.title = "Template"
+    }, [])
+
+  return(
+    <div className="app">
+        <Nav/>
+        <Switch>
+            <Route exact path="/" component={Home}/>
+        </Switch>
+    </div>
+  )
 }
+
+export default App

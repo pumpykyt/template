@@ -1,0 +1,13 @@
+.test-btn{
+    background-color: red;
+    color: white;
+    font-size: 36px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-right: 5px;
+}
+
+.count-monitor{
+    color: peru;
+}
